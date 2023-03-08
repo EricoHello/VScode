@@ -1,0 +1,65 @@
+html, body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #ececec;
+}
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .text {
+	z-index: 9999;
+	/* other styles */
+  }
+  .box {
+	background-color: #272424;
+	padding: 10px;
+  }
+  .container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	color: rgb(240, 240, 240);
+	font-family: sans-serif;
+  }	
+h1 {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 10px;
+}
+.skills {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -0.5em;
+  }
+  
+  .skill {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5em;
+	margin: 0.5em;
+  }
+canvas {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
